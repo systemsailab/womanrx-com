@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/compare-v2-menopause/estradiol-gel-vs-ospemifene--real-world-evidence.mdx",
+  "topic": "compare-v2-menopause",
+  "slug": "estradiol-gel-vs-ospemifene--real-world-evidence",
+  "title_hint": "Estradiol Gel (Divigel/Elestrin) vs Osphena: real-world evidence comparison",
+  "primary_query": "estradiol gel (divigel/elestrin) vs osphena real-world evidence comparison",
+  "author_slug": "rachel-goldberg-md",
+  "reviewer_slug": "elena-vasquez-md",
+  "guardrails": {
+    "word_count": 3687,
+    "sentence_stddev": 27.83,
+    "citations_per_200w": 1.25,
+    "passed": true
+  },
+  "queued_at": 1781929838.0511284,
+  "status": "awaiting_clinician_review"
+}

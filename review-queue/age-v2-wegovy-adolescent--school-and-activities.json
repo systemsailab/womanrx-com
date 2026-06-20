@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/age-v2-wegovy/adolescent--school-and-activities.mdx",
+  "topic": "age-v2-wegovy",
+  "slug": "adolescent--school-and-activities",
+  "title_hint": "Wegovy in Adolescent (12-17): school and activity considerations",
+  "primary_query": "Wegovy Adolescent (12-17) school and activity considerations",
+  "author_slug": "sarah-chen-whnp",
+  "reviewer_slug": "maya-okafor-md",
+  "guardrails": {
+    "word_count": 4283,
+    "sentence_stddev": 33.23,
+    "citations_per_200w": 1.82,
+    "passed": true
+  },
+  "queued_at": 1781929862.0751245,
+  "status": "awaiting_clinician_review"
+}

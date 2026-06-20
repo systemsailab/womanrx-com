@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/age-v2-evolocumab/adolescent--school-and-activities.mdx",
+  "topic": "age-v2-evolocumab",
+  "slug": "adolescent--school-and-activities",
+  "title_hint": "Repatha in Adolescent (12-17): school and activity considerations",
+  "primary_query": "Repatha Adolescent (12-17) school and activity considerations",
+  "author_slug": "sarah-chen-whnp",
+  "reviewer_slug": "maya-okafor-md",
+  "guardrails": {
+    "word_count": 4078,
+    "sentence_stddev": 24.1,
+    "citations_per_200w": 2.16,
+    "passed": true
+  },
+  "queued_at": 1781929984.4041207,
+  "status": "awaiting_clinician_review"
+}

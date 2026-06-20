@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/compare-glp-1/liraglutide-generic-vs-retatrutide--side-effects.mdx",
+  "topic": "compare-glp-1",
+  "slug": "liraglutide-generic-vs-retatrutide--side-effects",
+  "title_hint": "Liraglutide vs Retatrutide: side-effect profile head-to-head",
+  "primary_query": "liraglutide vs retatrutide side-effect profile head-to-head",
+  "author_slug": "maya-okafor-md",
+  "reviewer_slug": "elena-vasquez-md",
+  "guardrails": {
+    "word_count": 3610,
+    "sentence_stddev": 25.15,
+    "citations_per_200w": 1.5,
+    "passed": true
+  },
+  "queued_at": 1781930138.5076642,
+  "status": "awaiting_clinician_review"
+}

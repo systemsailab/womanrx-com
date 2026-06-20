@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/ghk-cu/discontinuation-protocol.mdx",
+  "topic": "ghk-cu",
+  "slug": "discontinuation-protocol",
+  "title_hint": "GHK-Cu: how to safely stop",
+  "primary_query": "ghk-cu how to safely stop",
+  "author_slug": "maya-okafor-md",
+  "reviewer_slug": "elena-vasquez-md",
+  "guardrails": {
+    "word_count": 3631,
+    "sentence_stddev": 25.76,
+    "citations_per_200w": 1.43,
+    "passed": true
+  },
+  "queued_at": 1781929841.8376863,
+  "status": "awaiting_clinician_review"
+}

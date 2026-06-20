@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/peptide-stacks-ipamorelin/mots-c--evidence-mechanism.mdx",
+  "topic": "peptide-stacks-ipamorelin",
+  "slug": "mots-c--evidence-mechanism",
+  "title_hint": "Ipamorelin + MOTS-c Stack: evidence + mechanism overlap",
+  "primary_query": "ipamorelin mots-c stack evidence + mechanism overlap",
+  "author_slug": "sarah-chen-whnp",
+  "reviewer_slug": "maya-okafor-md",
+  "guardrails": {
+    "word_count": 3563,
+    "sentence_stddev": 19.06,
+    "citations_per_200w": 1.4,
+    "passed": true
+  },
+  "queued_at": 1781929976.1069734,
+  "status": "awaiting_clinician_review"
+}

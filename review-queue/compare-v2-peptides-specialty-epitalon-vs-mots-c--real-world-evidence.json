@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/compare-v2-peptides-specialty/epitalon-vs-mots-c--real-world-evidence.mdx",
+  "topic": "compare-v2-peptides-specialty",
+  "slug": "epitalon-vs-mots-c--real-world-evidence",
+  "title_hint": "Epitalon vs MOTS-c: real-world evidence comparison",
+  "primary_query": "epitalon vs mots-c real-world evidence comparison",
+  "author_slug": "maya-okafor-md",
+  "reviewer_slug": "elena-vasquez-md",
+  "guardrails": {
+    "word_count": 3594,
+    "sentence_stddev": 20.35,
+    "citations_per_200w": 0.72,
+    "passed": true
+  },
+  "queued_at": 1781929836.6157656,
+  "status": "awaiting_clinician_review"
+}

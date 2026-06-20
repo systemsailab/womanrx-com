@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/lifestage-letrozole-fertility/in-your-40s.mdx",
+  "topic": "lifestage-letrozole-fertility",
+  "slug": "in-your-40s",
+  "title_hint": "Femara (fertility) in your 40s (perimenopause)",
+  "primary_query": "Femara (fertility) in your 40s (perimenopause)",
+  "author_slug": "sarah-chen-whnp",
+  "reviewer_slug": "rachel-goldberg-md",
+  "guardrails": {
+    "word_count": 4336,
+    "sentence_stddev": 33.56,
+    "citations_per_200w": 1.94,
+    "passed": true
+  },
+  "queued_at": 1781930018.235742,
+  "status": "awaiting_clinician_review"
+}

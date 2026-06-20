@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/age-v2-mounjaro/geriatric--transition-to-adult-care.mdx",
+  "topic": "age-v2-mounjaro",
+  "slug": "geriatric--transition-to-adult-care",
+  "title_hint": "Mounjaro in Geriatric (65+): transition to adult care",
+  "primary_query": "Mounjaro Geriatric (65+) transition to adult care",
+  "author_slug": "sarah-chen-whnp",
+  "reviewer_slug": "maya-okafor-md",
+  "guardrails": {
+    "word_count": 4017,
+    "sentence_stddev": 36.73,
+    "citations_per_200w": 1.84,
+    "passed": true
+  },
+  "queued_at": 1781929990.6121256,
+  "status": "awaiting_clinician_review"
+}

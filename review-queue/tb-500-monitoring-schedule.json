@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/tb-500/monitoring-schedule.mdx",
+  "topic": "tb-500",
+  "slug": "monitoring-schedule",
+  "title_hint": "TB-500: monitoring schedule \u2014 labs & exams",
+  "primary_query": "tb-500 monitoring schedule \u2014 labs & exams",
+  "author_slug": "maya-okafor-md",
+  "reviewer_slug": "elena-vasquez-md",
+  "guardrails": {
+    "word_count": 3931,
+    "sentence_stddev": 26.18,
+    "citations_per_200w": 1.42,
+    "passed": true
+  },
+  "queued_at": 1781929854.6975336,
+  "status": "awaiting_clinician_review"
+}

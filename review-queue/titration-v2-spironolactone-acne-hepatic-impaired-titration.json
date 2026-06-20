@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/titration-v2-spironolactone-acne/hepatic-impaired-titration.mdx",
+  "topic": "titration-v2-spironolactone-acne",
+  "slug": "hepatic-impaired-titration",
+  "title_hint": "Spironolactone: titration in hepatic impairment",
+  "primary_query": "Spironolactone titration in hepatic impairment",
+  "author_slug": "sarah-chen-whnp",
+  "reviewer_slug": "elena-vasquez-md",
+  "guardrails": {
+    "word_count": 3412,
+    "sentence_stddev": 22.92,
+    "citations_per_200w": 1.47,
+    "passed": true
+  },
+  "queued_at": 1781929832.4591784,
+  "status": "awaiting_clinician_review"
+}

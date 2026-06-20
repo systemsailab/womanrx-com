@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/lifestyle-estradiol-oral/nutrition.mdx",
+  "topic": "lifestyle-estradiol-oral",
+  "slug": "nutrition",
+  "title_hint": "Oral Estradiol: nutrition for best outcomes",
+  "primary_query": "Oral Estradiol nutrition for best outcomes",
+  "author_slug": "jordan-mitchell-rd",
+  "reviewer_slug": "rachel-goldberg-md",
+  "guardrails": {
+    "word_count": 4205,
+    "sentence_stddev": 21.67,
+    "citations_per_200w": 1.57,
+    "passed": true
+  },
+  "queued_at": 1781929866.7316918,
+  "status": "awaiting_clinician_review"
+}

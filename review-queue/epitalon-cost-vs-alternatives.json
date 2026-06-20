@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/epitalon/cost-vs-alternatives.mdx",
+  "topic": "epitalon",
+  "slug": "cost-vs-alternatives",
+  "title_hint": "Epitalon: cost vs alternatives in class",
+  "primary_query": "epitalon cost vs alternatives in class",
+  "author_slug": "maya-okafor-md",
+  "reviewer_slug": "elena-vasquez-md",
+  "guardrails": {
+    "word_count": 3569,
+    "sentence_stddev": 25.68,
+    "citations_per_200w": 1.23,
+    "passed": true
+  },
+  "queued_at": 1781930132.1866183,
+  "status": "awaiting_clinician_review"
+}

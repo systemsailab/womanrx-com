@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/eflornithine/mechanism-deep-dive.mdx",
+  "topic": "eflornithine",
+  "slug": "mechanism-deep-dive",
+  "title_hint": "Vaniqa: mechanism of action \u2014 full pathway",
+  "primary_query": "vaniqa mechanism of action \u2014 full pathway",
+  "author_slug": "priya-sharma-md",
+  "reviewer_slug": "elena-vasquez-md",
+  "guardrails": {
+    "word_count": 3709,
+    "sentence_stddev": 29.27,
+    "citations_per_200w": 1.19,
+    "passed": true
+  },
+  "queued_at": 1781930119.909119,
+  "status": "awaiting_clinician_review"
+}

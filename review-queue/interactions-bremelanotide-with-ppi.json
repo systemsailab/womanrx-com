@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/interactions-bremelanotide/with-ppi.mdx",
+  "topic": "interactions-bremelanotide",
+  "slug": "with-ppi",
+  "title_hint": "Vyleesi + PPIs (omeprazole, pantoprazole): interaction profile",
+  "primary_query": "vyleesi and PPIs (omeprazole, pantoprazole) interaction",
+  "author_slug": "elena-vasquez-md",
+  "reviewer_slug": "rachel-goldberg-md",
+  "guardrails": {
+    "word_count": 3555,
+    "sentence_stddev": 21.9,
+    "citations_per_200w": 1.86,
+    "passed": true
+  },
+  "queued_at": 1781929990.5924876,
+  "status": "awaiting_clinician_review"
+}

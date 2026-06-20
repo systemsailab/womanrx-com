@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/cognition-questions/does-quartz-health-solutions-cover-vyvanse.mdx",
+  "topic": "cognition-questions",
+  "slug": "does-quartz-health-solutions-cover-vyvanse",
+  "title_hint": "Does Quartz Health Solutions Cover Vyvanse?",
+  "primary_query": "does quartz health solutions cover vyvanse",
+  "author_slug": "sarah-chen-whnp",
+  "reviewer_slug": "maya-okafor-md",
+  "guardrails": {
+    "word_count": 3952,
+    "sentence_stddev": 21.88,
+    "citations_per_200w": 1.97,
+    "passed": true
+  },
+  "queued_at": 1781929980.7292457,
+  "status": "awaiting_clinician_review"
+}

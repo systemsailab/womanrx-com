@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/interactions-v2-mk-677/cannabis-interaction.mdx",
+  "topic": "interactions-v2-mk-677",
+  "slug": "cannabis-interaction",
+  "title_hint": "MK-677 (Ibutamoren): cannabis interaction profile",
+  "primary_query": "MK-677 (Ibutamoren) cannabis interaction profile",
+  "author_slug": "maya-okafor-md",
+  "reviewer_slug": "elena-vasquez-md",
+  "guardrails": {
+    "word_count": 3523,
+    "sentence_stddev": 20.69,
+    "citations_per_200w": 1.87,
+    "passed": true
+  },
+  "queued_at": 1781930109.0419474,
+  "status": "awaiting_clinician_review"
+}

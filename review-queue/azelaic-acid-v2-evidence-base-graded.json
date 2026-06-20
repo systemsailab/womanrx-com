@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/azelaic-acid-v2/evidence-base-graded.mdx",
+  "topic": "azelaic-acid-v2",
+  "slug": "evidence-base-graded",
+  "title_hint": "Azelaic Acid: evidence base graded by GRADE",
+  "primary_query": "Azelaic Acid evidence base graded by GRADE",
+  "author_slug": "elena-vasquez-md",
+  "reviewer_slug": "rachel-goldberg-md",
+  "guardrails": {
+    "word_count": 3805,
+    "sentence_stddev": 32.46,
+    "citations_per_200w": 1.26,
+    "passed": true
+  },
+  "queued_at": 1781929989.2199693,
+  "status": "awaiting_clinician_review"
+}

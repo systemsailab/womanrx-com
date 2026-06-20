@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/zoledronic-acid/drug-drug-interactions.mdx",
+  "topic": "zoledronic-acid",
+  "slug": "drug-drug-interactions",
+  "title_hint": "Reclast (Zoledronic Acid): complete drug-drug interaction profile",
+  "primary_query": "reclast (zoledronic acid) complete drug-drug interaction profile",
+  "author_slug": "rachel-goldberg-md",
+  "reviewer_slug": "elena-vasquez-md",
+  "guardrails": {
+    "word_count": 3553,
+    "sentence_stddev": 24.64,
+    "citations_per_200w": 1.63,
+    "passed": true
+  },
+  "queued_at": 1781929843.717141,
+  "status": "awaiting_clinician_review"
+}

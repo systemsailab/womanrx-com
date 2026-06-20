@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/access-v2-levothyroxine/compassionate-use.mdx",
+  "topic": "access-v2-levothyroxine",
+  "slug": "compassionate-use",
+  "title_hint": "Synthroid: compassionate use and expanded access",
+  "primary_query": "Synthroid compassionate use and expanded access",
+  "author_slug": "sarah-chen-whnp",
+  "reviewer_slug": "maya-okafor-md",
+  "guardrails": {
+    "word_count": 4029,
+    "sentence_stddev": 21.91,
+    "citations_per_200w": 1.59,
+    "passed": true
+  },
+  "queued_at": 1781930002.6387022,
+  "status": "awaiting_clinician_review"
+}

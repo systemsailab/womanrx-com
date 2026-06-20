@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/womens-hrt-questions/why-the-fda-should-remove-warning-labels-on-hormone-replacement-therapy-hrt.mdx",
+  "topic": "womens-hrt-questions",
+  "slug": "why-the-fda-should-remove-warning-labels-on-hormone-replacement-therapy-hrt",
+  "title_hint": "Why the FDA Should Remove Warning Labels on Hormone Replacement Therapy (HRT)?",
+  "primary_query": "why the fda should remove warning labels on hormone replacement therapy (hrt)",
+  "author_slug": "sarah-chen-whnp",
+  "reviewer_slug": "rachel-goldberg-md",
+  "guardrails": {
+    "word_count": 4367,
+    "sentence_stddev": 33.91,
+    "citations_per_200w": 2.24,
+    "passed": true
+  },
+  "queued_at": 1781929861.1008189,
+  "status": "awaiting_clinician_review"
+}

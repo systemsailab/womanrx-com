@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/access-duavee/compounded-equivalent.mdx",
+  "topic": "access-duavee",
+  "slug": "compounded-equivalent",
+  "title_hint": "Duavee: compounded equivalent landscape",
+  "primary_query": "Duavee compounded equivalent landscape",
+  "author_slug": "sarah-chen-whnp",
+  "reviewer_slug": "rachel-goldberg-md",
+  "guardrails": {
+    "word_count": 4052,
+    "sentence_stddev": 24.22,
+    "citations_per_200w": 1.38,
+    "passed": true
+  },
+  "queued_at": 1781929856.4723382,
+  "status": "awaiting_clinician_review"
+}

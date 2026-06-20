@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/conditions-v2-gsm/clinical-trial-finder.mdx",
+  "topic": "conditions-v2-gsm",
+  "slug": "clinical-trial-finder",
+  "title_hint": "Genitourinary Syndrome of Menopause (GSM): finding the right clinical trial",
+  "primary_query": "Genitourinary Syndrome of Menopause (GSM) finding the right clinical trial",
+  "author_slug": "sarah-chen-whnp",
+  "reviewer_slug": "rachel-goldberg-md",
+  "guardrails": {
+    "word_count": 4232,
+    "sentence_stddev": 26.82,
+    "citations_per_200w": 1.61,
+    "passed": true
+  },
+  "queued_at": 1781929868.3695896,
+  "status": "awaiting_clinician_review"
+}

@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/interactions-v2-tretinoin-women/contrast-dye-interaction.mdx",
+  "topic": "interactions-v2-tretinoin-women",
+  "slug": "contrast-dye-interaction",
+  "title_hint": "Tretinoin: imaging contrast dye interaction",
+  "primary_query": "Tretinoin imaging contrast dye interaction",
+  "author_slug": "elena-vasquez-md",
+  "reviewer_slug": "rachel-goldberg-md",
+  "guardrails": {
+    "word_count": 3866,
+    "sentence_stddev": 26.14,
+    "citations_per_200w": 1.91,
+    "passed": true
+  },
+  "queued_at": 1781929849.9621482,
+  "status": "awaiting_clinician_review"
+}

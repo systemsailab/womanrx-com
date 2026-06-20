@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/lifestyle-v2-alendronate/parenting-while-on.mdx",
+  "topic": "lifestyle-v2-alendronate",
+  "slug": "parenting-while-on",
+  "title_hint": "Fosamax: parenting while on this medication",
+  "primary_query": "Fosamax parenting while on this medication",
+  "author_slug": "jordan-mitchell-rd",
+  "reviewer_slug": "rachel-goldberg-md",
+  "guardrails": {
+    "word_count": 4091,
+    "sentence_stddev": 25.59,
+    "citations_per_200w": 2.35,
+    "passed": true
+  },
+  "queued_at": 1781929854.0310087,
+  "status": "awaiting_clinician_review"
+}

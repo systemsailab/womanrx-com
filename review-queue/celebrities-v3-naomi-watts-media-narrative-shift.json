@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/celebrities-v3-naomi-watts/media-narrative-shift.mdx",
+  "topic": "celebrities-v3-naomi-watts",
+  "slug": "media-narrative-shift",
+  "title_hint": "Naomi Watts: how the media narrative shifted",
+  "primary_query": "Naomi Watts menopause how the media narrative shifted",
+  "author_slug": "sarah-chen-whnp",
+  "reviewer_slug": "elena-vasquez-md",
+  "guardrails": {
+    "word_count": 4143,
+    "sentence_stddev": 24.96,
+    "citations_per_200w": 1.59,
+    "passed": true
+  },
+  "queued_at": 1781930141.316288,
+  "status": "awaiting_clinician_review"
+}

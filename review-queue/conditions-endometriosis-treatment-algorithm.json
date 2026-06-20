@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/conditions-endometriosis/treatment-algorithm.mdx",
+  "topic": "conditions-endometriosis",
+  "slug": "treatment-algorithm",
+  "title_hint": "Endometriosis: treatment algorithm by line of therapy",
+  "primary_query": "Endometriosis treatment algorithm by line of therapy",
+  "author_slug": "elena-vasquez-md",
+  "reviewer_slug": "rachel-goldberg-md",
+  "guardrails": {
+    "word_count": 3793,
+    "sentence_stddev": 27.16,
+    "citations_per_200w": 3.27,
+    "passed": true
+  },
+  "queued_at": 1781930009.5742261,
+  "status": "awaiting_clinician_review"
+}

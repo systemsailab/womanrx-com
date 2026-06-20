@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/off-label-v2-estradiol-patch/perimenopausal-mood--insurance-and-cost.mdx",
+  "topic": "off-label-v2-estradiol-patch",
+  "slug": "perimenopausal-mood--insurance-and-cost",
+  "title_hint": "Estradiol Patch for perimenopausal mood: insurance and cost reality",
+  "primary_query": "Estradiol Patch for perimenopausal mood insurance and cost reality",
+  "author_slug": "rachel-goldberg-md",
+  "reviewer_slug": "elena-vasquez-md",
+  "guardrails": {
+    "word_count": 3659,
+    "sentence_stddev": 29.05,
+    "citations_per_200w": 1.42,
+    "passed": true
+  },
+  "queued_at": 1781930113.551573,
+  "status": "awaiting_clinician_review"
+}

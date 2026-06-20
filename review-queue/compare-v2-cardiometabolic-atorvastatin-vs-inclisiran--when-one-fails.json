@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/compare-v2-cardiometabolic/atorvastatin-vs-inclisiran--when-one-fails.mdx",
+  "topic": "compare-v2-cardiometabolic",
+  "slug": "atorvastatin-vs-inclisiran--when-one-fails",
+  "title_hint": "Lipitor vs Leqvio: what to do when one fails",
+  "primary_query": "lipitor vs leqvio what to do when one fails",
+  "author_slug": "maya-okafor-md",
+  "reviewer_slug": "elena-vasquez-md",
+  "guardrails": {
+    "word_count": 4019,
+    "sentence_stddev": 18.97,
+    "citations_per_200w": 1.99,
+    "passed": true
+  },
+  "queued_at": 1781930008.2969174,
+  "status": "awaiting_clinician_review"
+}

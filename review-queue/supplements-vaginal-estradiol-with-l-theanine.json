@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/supplements-vaginal-estradiol/with-l-theanine.mdx",
+  "topic": "supplements-vaginal-estradiol",
+  "slug": "with-l-theanine",
+  "title_hint": "Vaginal Estradiol + L-theanine: what the evidence says",
+  "primary_query": "can I take L-theanine with Vaginal Estradiol",
+  "author_slug": "jordan-mitchell-rd",
+  "reviewer_slug": "rachel-goldberg-md",
+  "guardrails": {
+    "word_count": 3335,
+    "sentence_stddev": 27.93,
+    "citations_per_200w": 1.62,
+    "passed": true
+  },
+  "queued_at": 1781929979.0674515,
+  "status": "awaiting_clinician_review"
+}

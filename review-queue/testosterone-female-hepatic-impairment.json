@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/testosterone-female/hepatic-impairment.mdx",
+  "topic": "testosterone-female",
+  "slug": "hepatic-impairment",
+  "title_hint": "Low-Dose Testosterone (women): dosing in hepatic impairment",
+  "primary_query": "low-dose testosterone (women) dosing in hepatic impairment",
+  "author_slug": "elena-vasquez-md",
+  "reviewer_slug": "rachel-goldberg-md",
+  "guardrails": {
+    "word_count": 4300,
+    "sentence_stddev": 35.35,
+    "citations_per_200w": 1.53,
+    "passed": true
+  },
+  "queued_at": 1781930021.5513144,
+  "status": "awaiting_clinician_review"
+}

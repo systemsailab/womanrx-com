@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/compare-glp-1/wegovy-vs-saxenda--cost-access.mdx",
+  "topic": "compare-glp-1",
+  "slug": "wegovy-vs-saxenda--cost-access",
+  "title_hint": "Wegovy vs Saxenda: cost and access head-to-head",
+  "primary_query": "wegovy vs saxenda cost and access head-to-head",
+  "author_slug": "maya-okafor-md",
+  "reviewer_slug": "elena-vasquez-md",
+  "guardrails": {
+    "word_count": 3819,
+    "sentence_stddev": 24.13,
+    "citations_per_200w": 1.73,
+    "passed": true
+  },
+  "queued_at": 1781930138.8684907,
+  "status": "awaiting_clinician_review"
+}

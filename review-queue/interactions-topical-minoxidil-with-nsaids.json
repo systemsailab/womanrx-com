@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/interactions-topical-minoxidil/with-nsaids.mdx",
+  "topic": "interactions-topical-minoxidil",
+  "slug": "with-nsaids",
+  "title_hint": "Topical Minoxidil + NSAIDs (ibuprofen, naproxen): interaction profile",
+  "primary_query": "topical minoxidil and NSAIDs (ibuprofen, naproxen) interaction",
+  "author_slug": "elena-vasquez-md",
+  "reviewer_slug": "rachel-goldberg-md",
+  "guardrails": {
+    "word_count": 3679,
+    "sentence_stddev": 26.55,
+    "citations_per_200w": 1.79,
+    "passed": true
+  },
+  "queued_at": 1781929846.4483397,
+  "status": "awaiting_clinician_review"
+}

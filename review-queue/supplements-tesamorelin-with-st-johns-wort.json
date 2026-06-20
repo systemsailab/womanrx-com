@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/supplements-tesamorelin/with-st-johns-wort.mdx",
+  "topic": "supplements-tesamorelin",
+  "slug": "with-st-johns-wort",
+  "title_hint": "Egrifta (Tesamorelin) + St John's Wort: what the evidence says",
+  "primary_query": "can I take St John's Wort with Egrifta (Tesamorelin)",
+  "author_slug": "jordan-mitchell-rd",
+  "reviewer_slug": "maya-okafor-md",
+  "guardrails": {
+    "word_count": 3816,
+    "sentence_stddev": 14.09,
+    "citations_per_200w": 1.73,
+    "passed": true
+  },
+  "queued_at": 1781929998.2855897,
+  "status": "awaiting_clinician_review"
+}

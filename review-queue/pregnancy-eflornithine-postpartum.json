@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/pregnancy-eflornithine/postpartum.mdx",
+  "topic": "pregnancy-eflornithine",
+  "slug": "postpartum",
+  "title_hint": "Vaniqa postpartum: safety guide",
+  "primary_query": "is Vaniqa safe postpartum",
+  "author_slug": "elena-vasquez-md",
+  "reviewer_slug": "elena-vasquez-md",
+  "guardrails": {
+    "word_count": 3550,
+    "sentence_stddev": 26.43,
+    "citations_per_200w": 1.52,
+    "passed": true
+  },
+  "queued_at": 1781929833.7152967,
+  "status": "awaiting_clinician_review"
+}

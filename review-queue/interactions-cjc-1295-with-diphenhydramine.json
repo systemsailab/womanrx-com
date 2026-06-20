@@ -1,0 +1,17 @@
+{
+  "mdx_path": "app/content/interactions-cjc-1295/with-diphenhydramine.mdx",
+  "topic": "interactions-cjc-1295",
+  "slug": "with-diphenhydramine",
+  "title_hint": "CJC-1295 + diphenhydramine: interaction profile",
+  "primary_query": "cjc-1295 and diphenhydramine interaction",
+  "author_slug": "maya-okafor-md",
+  "reviewer_slug": "elena-vasquez-md",
+  "guardrails": {
+    "word_count": 3572,
+    "sentence_stddev": 22.56,
+    "citations_per_200w": 2.35,
+    "passed": true
+  },
+  "queued_at": 1781929848.925419,
+  "status": "awaiting_clinician_review"
+}
