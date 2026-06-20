@@ -1,0 +1,51 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# next.js
+.next/
+out/
+build
+dist/
+
+# vercel
+.vercel
+.vercel/
+
+# env
+.env
+.env.local
+.env*.local
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# python content-engine
+__pycache__/
+*.pyc
+venv/
+.venv/
+.python-version
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large PNG source files (JPG versions are committed for production)
+app/public/photo/*.png
+HEALTHRX_RETROFIT_PLAN.md
+HEALTHRX_FROM_FORMBLENDS_HANDOFF.md
+content-engine/
+docs/
