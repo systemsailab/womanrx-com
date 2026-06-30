@@ -89,7 +89,7 @@ export async function generateMetadata({
   const articles = getAllArticles().filter((a) => a.topic === topic);
   if (articles.length === 0) return {};
   const label = topicLabel(topic);
-  const canonical = `https://womanrx.com/${topic}`;
+  const canonical = `https://womenrx.com/${topic}`;
   const description = `Explore ${articles.length} clinically-reviewed WomanRx.com articles on ${label}. Evidence-based, EEAT-verified guidance from the WomanRx.com Medical Team.`.slice(0, 160);
   return {
     title: `${label} | WomanRx.com`,
@@ -117,7 +117,7 @@ export default async function TopicHub({
   if (articles.length === 0) permanentRedirect("/");
 
   const label = topicLabel(topic);
-  const canonical = `https://womanrx.com/${topic}`;
+  const canonical = `https://womenrx.com/${topic}`;
 
   // CollectionPage JSON-LD with embedded ItemList
   const graph = {
@@ -129,14 +129,14 @@ export default async function TopicHub({
         url: canonical,
         name: `${label} — WomanRx.com`,
         description: `${articles.length} clinically-reviewed articles on ${label}.`,
-        isPartOf: { "@id": "https://womanrx.com/#website" },
+        isPartOf: { "@id": "https://womenrx.com/#website" },
         mainEntity: {
           "@type": "ItemList",
           numberOfItems: articles.length,
           itemListElement: articles.slice(0, 100).map((a, i) => ({
             "@type": "ListItem",
             position: i + 1,
-            url: `https://womanrx.com/${a.topic}/${a.slug}`,
+            url: `https://womenrx.com/${a.topic}/${a.slug}`,
             name: a.title,
           })),
         },
@@ -144,7 +144,7 @@ export default async function TopicHub({
       {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: "https://womanrx.com/" },
+          { "@type": "ListItem", position: 1, name: "Home", item: "https://womenrx.com/" },
           { "@type": "ListItem", position: 2, name: label, item: canonical },
         ],
       },
@@ -162,7 +162,7 @@ export default async function TopicHub({
           <div className="content-hero-inner">
             <Breadcrumbs
               items={[
-                { name: "Home", url: "https://womanrx.com/" },
+                { name: "Home", url: "https://womenrx.com/" },
                 { name: label, url: canonical },
               ]}
             />

@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: p.name,
     description: desc,
-    alternates: { canonical: `https://womanrx.com/shop/${p.slug}` },
+    alternates: { canonical: `https://womenrx.com/shop/${p.slug}` },
   };
 }
 

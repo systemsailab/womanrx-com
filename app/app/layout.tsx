@@ -10,9 +10,9 @@ const siteGraph = {
   "@graph": [
     {
       "@type": "MedicalOrganization",
-      "@id": "https://womanrx.com/#organization",
-      name: "WomanRx.com",
-      url: "https://womanrx.com",
+      "@id": "https://womenrx.com/#organization",
+      name: "WomenRx",
+      url: "https://womenrx.com",
       email: "support@womanrx.com",
       medicalSpecialty: [
         "Endocrinology",
@@ -31,39 +31,39 @@ const siteGraph = {
     },
     {
       "@type": "WebSite",
-      "@id": "https://womanrx.com/#website",
-      url: "https://womanrx.com",
-      name: "WomanRx.com",
-      publisher: { "@id": "https://womanrx.com/#organization" },
+      "@id": "https://womenrx.com/#website",
+      url: "https://womenrx.com",
+      name: "WomenRx",
+      publisher: { "@id": "https://womenrx.com/#organization" },
       inLanguage: "en-US",
     },
   ],
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://womanrx.com"),
+  metadataBase: new URL("https://womenrx.com"),
   verification: {
     google: "yquMEXOidB0_igGz29dMRTebQgQMIxJlCZY1k4pzihg",
   },
   title: {
-    default: "WomanRx.com | Clinical Weight Loss, Prescribed With Rigor",
-    template: "%s | WomanRx.com",
+    default: "WomenRx | Hormones, GLP-1 & Peptides for Women",
+    template: "%s | WomenRx",
   },
   description:
-    "Physician-prescribed compounded GLP-1 medications — semaglutide and tirzepatide — delivered to your door. One transparent price. No insurance required. LegitScript certified.",
+    "Physician-guided GLP-1, peptide, and hormone care, designed for a woman's body and the years ahead. One trusted home for getting older and feeling younger. No insurance required.",
   openGraph: {
-    title: "WomanRx.com | Clinical Weight Loss, Prescribed With Rigor",
+    title: "WomenRx | Hormones, GLP-1 & Peptides for Women",
     description:
-      "Physician-prescribed compounded GLP-1 medications delivered to your door. One transparent price. No insurance required.",
+      "GLP-1, peptides, and hormone care, designed for a woman's body. One trusted home for getting older and feeling younger. No insurance required.",
     type: "website",
-    url: "https://womanrx.com",
-    siteName: "WomanRx.com",
+    url: "https://womenrx.com",
+    siteName: "WomenRx",
   },
   twitter: {
     card: "summary_large_image",
-    title: "WomanRx.com | Clinical Weight Loss, Prescribed With Rigor",
+    title: "WomenRx | Hormones, GLP-1 & Peptides for Women",
     description:
-      "Physician-prescribed compounded GLP-1 medications delivered to your door. One transparent price.",
+      "GLP-1, peptides, and hormone care, designed for women. One trusted home for feeling ageless.",
   },
 };
 

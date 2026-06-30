@@ -8,18 +8,18 @@ export const metadata: Metadata = {
   title: "Peptide Reconstitution Calculator (BAC Water Math) | WomanRx.com",
   description:
     "Calculate exact insulin-syringe units for any peptide dose given vial mass and bacteriostatic water volume. Eliminates the most common reconstitution math errors.",
-  alternates: { canonical: "https://womanrx.com/tools/peptide-reconstitution" },
+  alternates: { canonical: "https://womenrx.com/tools/peptide-reconstitution" },
 };
 
 const APP_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "WebApplication",
   name: "Peptide Reconstitution Calculator",
-  url: "https://womanrx.com/tools/peptide-reconstitution",
+  url: "https://womenrx.com/tools/peptide-reconstitution",
   applicationCategory: "MedicalApplication",
   operatingSystem: "All",
   offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-  publisher: { "@id": "https://womanrx.com/#organization", "@type": "MedicalOrganization", name: "WomanRx.com" },
+  publisher: { "@id": "https://womenrx.com/#organization", "@type": "MedicalOrganization", name: "WomanRx.com" },
 };
 
 export default function Page() {
@@ -29,9 +29,9 @@ export default function Page() {
       <header className="mb-8">
         <Breadcrumbs
           items={[
-            { name: "Home", url: "https://womanrx.com/" },
-            { name: "Tools", url: "https://womanrx.com/tools/peptide-reconstitution" },
-            { name: "Peptide Reconstitution", url: "https://womanrx.com/tools/peptide-reconstitution" },
+            { name: "Home", url: "https://womenrx.com/" },
+            { name: "Tools", url: "https://womenrx.com/tools/peptide-reconstitution" },
+            { name: "Peptide Reconstitution", url: "https://womenrx.com/tools/peptide-reconstitution" },
           ]}
         />
         <h1 className="text-4xl font-semibold tracking-tight text-slate-900">

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Editorial Policy and Medical Review",
   description:
     "WomanRx.com editorial standards for clinically reviewed medical content, sourcing, corrections, conflicts of interest, author credentials, and update cadence.",
-  alternates: { canonical: "https://womanrx.com/editorial-policy" },
+  alternates: { canonical: "https://womenrx.com/editorial-policy" },
 };
 
 const graph = {
@@ -14,19 +14,19 @@ const graph = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://womanrx.com/editorial-policy#webpage",
-      url: "https://womanrx.com/editorial-policy",
+      "@id": "https://womenrx.com/editorial-policy#webpage",
+      url: "https://womenrx.com/editorial-policy",
       name: "WomanRx.com Editorial Policy and Medical Review",
       description: metadata.description,
-      isPartOf: { "@id": "https://womanrx.com/#website" },
-      publisher: { "@id": "https://womanrx.com/#organization" },
-      reviewedBy: { "@id": "https://womanrx.com/authors/womanrx-medical-team#person" },
+      isPartOf: { "@id": "https://womenrx.com/#website" },
+      publisher: { "@id": "https://womenrx.com/#organization" },
+      reviewedBy: { "@id": "https://womenrx.com/authors/womanrx-medical-team#person" },
     },
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://womanrx.com/" },
-        { "@type": "ListItem", position: 2, name: "Editorial Policy", item: "https://womanrx.com/editorial-policy" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://womenrx.com/" },
+        { "@type": "ListItem", position: 2, name: "Editorial Policy", item: "https://womenrx.com/editorial-policy" },
       ],
     },
   ],
@@ -38,8 +38,8 @@ export default function EditorialPolicyPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(graph) }} />
       <Breadcrumbs
         items={[
-          { name: "Home", url: "https://womanrx.com/" },
-          { name: "Editorial Policy", url: "https://womanrx.com/editorial-policy" },
+          { name: "Home", url: "https://womenrx.com/" },
+          { name: "Editorial Policy", url: "https://womenrx.com/editorial-policy" },
         ]}
       />
       <h1 className="mt-6 text-4xl font-semibold tracking-tight text-slate-950">

@@ -8,19 +8,19 @@ export const metadata: Metadata = {
   title: "Free Testosterone Calculator (Vermeulen Method) | WomanRx.com",
   description:
     "Calculate free and bioavailable testosterone from total T, SHBG, and albumin using the Vermeulen equation. Free clinical tool reviewed by the WomanRx.com Medical Team.",
-  alternates: { canonical: "https://womanrx.com/tools/free-testosterone" },
+  alternates: { canonical: "https://womenrx.com/tools/free-testosterone" },
 };
 
 const APP_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "WebApplication",
   name: "Free Testosterone Calculator",
-  url: "https://womanrx.com/tools/free-testosterone",
+  url: "https://womenrx.com/tools/free-testosterone",
   applicationCategory: "MedicalApplication",
   operatingSystem: "All",
   offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
   about: { "@type": "MedicalCondition", name: "Male hypogonadism" },
-  publisher: { "@id": "https://womanrx.com/#organization", "@type": "MedicalOrganization", name: "WomanRx.com" },
+  publisher: { "@id": "https://womenrx.com/#organization", "@type": "MedicalOrganization", name: "WomanRx.com" },
 };
 
 export default function Page() {
@@ -30,9 +30,9 @@ export default function Page() {
       <header className="mb-8">
         <Breadcrumbs
           items={[
-            { name: "Home", url: "https://womanrx.com/" },
-            { name: "Tools", url: "https://womanrx.com/tools/free-testosterone" },
-            { name: "Free Testosterone", url: "https://womanrx.com/tools/free-testosterone" },
+            { name: "Home", url: "https://womenrx.com/" },
+            { name: "Tools", url: "https://womenrx.com/tools/free-testosterone" },
+            { name: "Free Testosterone", url: "https://womenrx.com/tools/free-testosterone" },
           ]}
         />
         <h1 className="text-4xl font-semibold tracking-tight text-slate-900">

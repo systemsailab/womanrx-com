@@ -164,7 +164,7 @@ export function CheckoutClient() {
       },
       billingSameAsShipping: true,
       checkoutInstanceId: checkoutInstanceId.current,
-      startUrl: typeof window !== "undefined" ? window.location.href : "https://womanrx.com/checkout",
+      startUrl: typeof window !== "undefined" ? window.location.href : "https://womenrx.com/checkout",
     }),
     [form, nameParts, product],
   );

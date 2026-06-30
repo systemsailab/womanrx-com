@@ -4,11 +4,11 @@ import { useEffect, useState } from "react";
 import { C, mono } from "@/lib/design";
 
 const MESSAGES = [
-  "Free overnight shipping in all 50 states",
-  "30-day money-back guarantee",
-  "HSA / FSA eligible",
+  "Physician-guided care, designed for women",
+  "Free, discreet shipping in all 50 states",
   "No insurance required · One transparent price",
-  "Cancel anytime in one click",
+  "Dispensed by licensed U.S. pharmacies",
+  "Care that grows with you, cancel anytime",
 ];
 
 export function PromoBar() {

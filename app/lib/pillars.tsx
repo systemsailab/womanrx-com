@@ -4,7 +4,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ArticleMediaHeader } from "@/components/ArticleMediaHeader";
 import { getAllArticles, type ArticleMeta } from "@/lib/content";
 
-const BASE = "https://womanrx.com";
+const BASE = "https://womenrx.com";
 
 type PillarSection = { title: string; pattern: RegExp; exclude?: RegExp; description?: string };
 

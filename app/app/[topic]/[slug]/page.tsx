@@ -81,7 +81,7 @@ function ogImage(topic: string, slug: string) {
   const image = getArticleImage(topic, slug);
   if (image) return image;
   return {
-    url: `https://womanrx.com/og?topic=${encodeURIComponent(topic)}&slug=${encodeURIComponent(slug)}`,
+    url: `https://womenrx.com/og?topic=${encodeURIComponent(topic)}&slug=${encodeURIComponent(slug)}`,
     width: 1200,
     height: 630,
     alt: "WomanRx.com",
@@ -229,7 +229,7 @@ export async function generateMetadata({
   const { topic, slug } = await params;
   const a = getArticle(topic, slug);
   if (!a) return {};
-  const canonical = `https://womanrx.com/${a.topic}/${a.slug}`;
+  const canonical = `https://womenrx.com/${a.topic}/${a.slug}`;
   // Trim description to <=160 chars (Google SERP cutoff) on a word boundary.
   const desc = (() => {
     const raw = a.description || "";
@@ -291,7 +291,7 @@ export default async function Page({
     options: { parseFrontmatter: false },
   });
 
-  const canonical = `https://womanrx.com/${a.topic}/${a.slug}`;
+  const canonical = `https://womenrx.com/${a.topic}/${a.slug}`;
   return (
     <MedicalArticle
       url={canonical}
@@ -307,8 +307,8 @@ export default async function Page({
       faqs={faqs}
       toc={prepared.toc}
       breadcrumbs={[
-        { name: "Home", url: "https://womanrx.com/" },
-        { name: topicLabel(a.topic), url: `https://womanrx.com/${a.topic}` },
+        { name: "Home", url: "https://womenrx.com/" },
+        { name: topicLabel(a.topic), url: `https://womenrx.com/${a.topic}` },
         { name: a.title, url: canonical },
       ]}
     >

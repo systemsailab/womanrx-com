@@ -2,22 +2,24 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { C, sans, mono, label, FONT, PAGE_X } from "@/lib/design";
+import { C, sans, mono, PAGE_X } from "@/lib/design";
 import { PromoBar } from "./PromoBar";
 import { CartButton } from "./shop/CartButton";
 import { BrandLogo } from "./BrandLogo";
 import { PEPTIDES_LIVE } from "@/lib/shop/config";
 
-const SHOP_ITEMS = [
-  { href: "/tirzepatide", name: "Compounded Tirzepatide", desc: "Dual-incretin · weekly", price: "$149/mo" },
-  { href: "/semaglutide", name: "Compounded Semaglutide", desc: "GLP-1 · weekly", price: "$99/mo" },
+const TREATMENTS = [
+  { href: "/glp-1", name: "Weight & GLP-1", desc: "Semaglutide & tirzepatide, dosed for women", tag: "From $99" },
+  { href: "/hrt", name: "Hormones & HRT", desc: "Perimenopause & menopause, met with science", tag: "HRT" },
+  { href: "/peptides", name: "Peptide therapy", desc: "Energy, recovery & cellular repair", tag: "Peptides" },
+  { href: "/blog", name: "Skin & longevity", desc: "Look as ageless as you intend to feel", tag: "Library" },
 ];
 
 const LINKS = [
-  { href: "#shop", label: "Shop", dropdown: true },
+  { href: "#treatments", label: "Treatments", dropdown: true },
   { href: "#how", label: "How it works" },
-  { href: "#pricing", label: "Pricing" },
-  { href: "#reviews", label: "Reviews" },
+  { href: "/blog", label: "The Journal" },
+  { href: "#reviews", label: "Stories" },
   { href: "/faq", label: "FAQ" },
 ];
 
@@ -108,16 +110,16 @@ export function SiteNav({ tone = "ink" }: { tone?: "ink" | "bone" }) {
                         transform: "translateX(-50%)",
                         background: C.white,
                         border: `1px solid ${C.line}`,
-                        borderRadius: 12,
+                        borderRadius: 14,
                         padding: 12,
-                        width: 340,
-                        boxShadow: "0 20px 60px -20px rgba(14, 14, 12, 0.18)",
+                        width: 360,
+                        boxShadow: "0 26px 70px -28px rgba(42, 35, 32, 0.28)",
                         display: "flex",
                         flexDirection: "column",
                         gap: 4,
                       }}
                     >
-                      {SHOP_ITEMS.map((item) => (
+                      {TREATMENTS.map((item) => (
                         <Link
                           key={item.href}
                           href={item.href}
@@ -125,7 +127,7 @@ export function SiteNav({ tone = "ink" }: { tone?: "ink" | "bone" }) {
                             display: "grid",
                             gridTemplateColumns: "1fr auto",
                             padding: "12px 14px",
-                            borderRadius: 8,
+                            borderRadius: 10,
                             textDecoration: "none",
                             transition: "background 0.15s",
                             alignItems: "center",
@@ -142,16 +144,15 @@ export function SiteNav({ tone = "ink" }: { tone?: "ink" | "bone" }) {
                               {item.desc}
                             </div>
                           </div>
-                          <div style={mono({ fontSize: 12.5, fontWeight: 500, color: C.brand })}>
-                            {item.price}
+                          <div style={mono({ fontSize: 10.5, fontWeight: 600, color: C.brand, letterSpacing: "0.1em", textTransform: "uppercase" })}>
+                            {item.tag}
                           </div>
                         </Link>
                       ))}
-                      {PEPTIDES_LIVE ? (
                       <Link
-                        href="/shop"
+                        href="/blog"
                         style={{
-                          padding: "10px 14px",
+                          padding: "11px 14px",
                           marginTop: 4,
                           borderTop: `1px solid ${C.line}`,
                           ...sans({ fontSize: 13, fontWeight: 600, color: C.brand }),
@@ -160,10 +161,9 @@ export function SiteNav({ tone = "ink" }: { tone?: "ink" | "bone" }) {
                           justifyContent: "space-between",
                         }}
                       >
-                        See all compounds
+                        Browse the full library
                         <span>→</span>
                       </Link>
-                      ) : null}
                     </div>
                   )}
                 </div>
@@ -189,7 +189,7 @@ export function SiteNav({ tone = "ink" }: { tone?: "ink" | "bone" }) {
               Sign in
             </a>
             <Link href="/weight-loss-intake" className="btn-brand" style={{ padding: "11px 22px", fontSize: 13.5 }}>
-              Take the quiz
+              Start your visit
               <span style={mono({ fontSize: 12 })}>→</span>
             </Link>
           </div>
@@ -224,11 +224,17 @@ export function SiteNav({ tone = "ink" }: { tone?: "ink" | "bone" }) {
               gap: 18,
             }}
           >
-            {LINKS.map((l) => (
-              <Link key={l.href} href={l.href} className={linkClass} onClick={() => setOpen(false)}>
-                {l.label}
+            {TREATMENTS.map((t) => (
+              <Link key={t.href} href={t.href} className={linkClass} onClick={() => setOpen(false)}>
+                {t.name}
               </Link>
             ))}
+            <Link href="/blog" className={linkClass} onClick={() => setOpen(false)}>
+              The Journal
+            </Link>
+            <Link href="/faq" className={linkClass} onClick={() => setOpen(false)}>
+              FAQ
+            </Link>
             <a
               href="https://member.womanrx.com/"
               target="_blank"
@@ -243,7 +249,7 @@ export function SiteNav({ tone = "ink" }: { tone?: "ink" | "bone" }) {
               onClick={() => setOpen(false)}
               style={{ justifyContent: "center", marginTop: 8 }}
             >
-              Take the quiz <span>→</span>
+              Start your visit <span>→</span>
             </Link>
           </div>
         )}

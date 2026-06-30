@@ -10,9 +10,9 @@ const PRODUCTS = [
 const PLATFORM = [
   { href: "/about", label: "About" },
   { href: "/editorial-policy", label: "Editorial Policy" },
-  { href: "/glp-1", label: "GLP-1 Library" },
-  { href: "/hrt", label: "HRT Library" },
-  { href: "/peptides", label: "Peptide Library" },
+  { href: "/glp-1", label: "GLP-1 & Weight" },
+  { href: "/hrt", label: "Hormones & HRT" },
+  { href: "/peptides", label: "Peptides" },
   { href: "/faq", label: "Questions" },
   { href: "/contact-us", label: "Contact" },
   { href: "https://member.womanrx.com/", label: "Patient Portal" },
@@ -45,7 +45,7 @@ export function SiteFooter() {
             maxWidth: 880,
           }}
         >
-          <div style={label(C.bone4)}>WomanRx.com · Compounding apothecary · Est. 2024</div>
+          <div style={label(C.bone4)}>WomenRx · Women's longevity medicine · Est. 2024</div>
           <p
             style={serif({
               fontSize: "clamp(28px, 3.4vw, 44px)",
@@ -56,8 +56,8 @@ export function SiteFooter() {
               letterSpacing: "-0.018em",
             })}
           >
-            We compound, dispense, and ship the prescription your provider writes.
-            We don't <em style={{ fontStyle: "italic", color: C.accentLight }}>practice medicine</em>.
+            Care built around a woman's body, at every age. We dispense the
+            prescription your provider writes. We don't <em style={{ fontStyle: "italic", color: C.accentLight }}>practice medicine</em>.
             We don't <em style={{ fontStyle: "italic", color: C.accentLight }}>own the doctor</em>.
             We don't <em style={{ fontStyle: "italic", color: C.accentLight }}>hide the price</em>.
           </p>
@@ -76,7 +76,7 @@ export function SiteFooter() {
           className="footer-cols"
         >
           <div>
-            <div style={label(C.bone4)}>The Apothecary</div>
+            <div style={label(C.bone4)}>WomenRx</div>
             <address
               style={{
                 ...sans({
@@ -100,7 +100,7 @@ export function SiteFooter() {
           </div>
 
           <div>
-            <div style={label(C.bone4)}>Compounds</div>
+            <div style={label(C.bone4)}>Treatments</div>
             <ul
               style={{
                 listStyle: "none",
@@ -224,9 +224,9 @@ export function SiteFooter() {
           className="footer-disclaim-cols"
         >
           <DisclaimerBlock title="Platform">
-            WomanRx.com operates as a marketplace platform that connects patients with
+            WomenRx operates as a marketplace platform that connects patients with
             independently licensed healthcare providers who deliver medical care through
-            the WomanRx.com Patient Portal. WomanRx.com does not directly dispense medication
+            the WomenRx Patient Portal. WomenRx does not directly dispense medication
             or provide medical services; all clinical decisions are solely made by
             independent providers. Payment does not guarantee that a prescription will
             be issued or that medication will be dispensed.
@@ -243,7 +243,7 @@ export function SiteFooter() {
           <DisclaimerBlock title="Trademarks">
             Wegovy® and Ozempic® are exclusively manufactured and distributed by Novo
             Nordisk®. Mounjaro® and Zepbound® are exclusively manufactured and
-            distributed by Eli Lilly and Company®. WomanRx.com is not affiliated with,
+            distributed by Eli Lilly and Company®. WomenRx is not affiliated with,
             endorsed by, or sponsored by any of these companies or their products.
           </DisclaimerBlock>
 
@@ -267,7 +267,7 @@ export function SiteFooter() {
           }}
         >
           <span style={mono({ fontSize: 10.5, color: C.bone4, letterSpacing: "0.16em" })}>
-            © {new Date().getFullYear()} WOMANRX.COM
+            © {new Date().getFullYear()} WOMENRX
           </span>
           <span style={mono({ fontSize: 10.5, color: C.bone4, letterSpacing: "0.16em" })}>
             COMPOUNDED BY A LICENSED 503A PHARMACY

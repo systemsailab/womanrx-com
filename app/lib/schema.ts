@@ -62,14 +62,14 @@ export type ArticleSchemaInput = {
   specialty?: string;          // schema.org medical specialty enum url
 };
 
-const ORG_ID = "https://womanrx.com/#organization";
+const ORG_ID = "https://womenrx.com/#organization";
 
 export const WOMANRX_ORGANIZATION = {
   "@type": "MedicalOrganization",
   "@id": ORG_ID,
   name: "WomanRx.com",
-  url: "https://womanrx.com",
-  logo: "https://womanrx.com/logo.png",
+  url: "https://womenrx.com",
+  logo: "https://womenrx.com/logo.png",
 };
 
 function personNode(a: Author) {
@@ -81,11 +81,11 @@ function personNode(a: Author) {
   }));
   return {
     "@type": a.role === "physician" ? "Physician" : "Person",
-    "@id": `https://womanrx.com/authors/${a.slug}#person`,
+    "@id": `https://womenrx.com/authors/${a.slug}#person`,
     name: a.name,
     honorificSuffix: a.honorificSuffix,
     jobTitle: a.jobTitle,
-    url: `https://womanrx.com/authors/${a.slug}`,
+    url: `https://womenrx.com/authors/${a.slug}`,
     image: a.imageUrl,
     worksFor: { "@id": ORG_ID },
     alumniOf: a.alumniOf,
@@ -209,8 +209,8 @@ export function buildArticleGraph(input: ArticleSchemaInput) {
     inLanguage: "en-US",
     mainContentOfPage: { "@type": "WebPageElement", cssSelector: "article" },
     about: input.about ? { "@id": `#${slugify(getAboutName(input.about))}` } : undefined,
-    author: { "@id": `https://womanrx.com/authors/${input.authorSlug}#person` },
-    reviewedBy: { "@id": `https://womanrx.com/authors/${input.reviewerSlug}#person` },
+    author: { "@id": `https://womenrx.com/authors/${input.authorSlug}#person` },
+    reviewedBy: { "@id": `https://womenrx.com/authors/${input.reviewerSlug}#person` },
     publisher: { "@id": ORG_ID },
     primaryImageOfPage: input.heroImage ? { "@id": `${input.heroImage.url}#image` } : undefined,
     citation: input.references?.map(refNode),

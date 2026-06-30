@@ -1,6 +1,6 @@
 import { getAllArticles } from "@/lib/content";
 
-const BASE = "https://womanrx.com";
+const BASE = "https://womenrx.com";
 
 export const dynamic = "force-static";
 export const revalidate = false;

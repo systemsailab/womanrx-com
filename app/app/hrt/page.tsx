@@ -21,7 +21,7 @@ const config: PillarConfig = {
 export const metadata: Metadata = {
   title: config.title,
   description: config.description,
-  alternates: { canonical: "https://womanrx.com/hrt" },
+  alternates: { canonical: "https://womenrx.com/hrt" },
 };
 
 export default function Page() {

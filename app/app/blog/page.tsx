@@ -6,7 +6,7 @@ import { getAllArticles } from "@/lib/content";
 export const dynamic = "force-static";
 export const revalidate = false;
 
-const BASE = "https://womanrx.com";
+const BASE = "https://womenrx.com";
 
 export const metadata = {
   title: "WomanRx.com Blog | Clinical Guides on GLP-1, HRT, Peptides, and Labs",

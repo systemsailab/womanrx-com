@@ -8,19 +8,19 @@ export const metadata: Metadata = {
   title: "GLP-1 Weight Loss Projection Calculator | WomanRx.com",
   description:
     "Project expected weight loss on Wegovy, Zepbound, Mounjaro, or Saxenda based on published trial data (STEP-1, SURMOUNT-1, SCALE). Free interactive tool reviewed by the WomanRx.com Medical Team.",
-  alternates: { canonical: "https://womanrx.com/tools/glp1-projection" },
+  alternates: { canonical: "https://womenrx.com/tools/glp1-projection" },
 };
 
 const APP_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "WebApplication",
   name: "GLP-1 Weight Loss Projection Calculator",
-  url: "https://womanrx.com/tools/glp1-projection",
+  url: "https://womenrx.com/tools/glp1-projection",
   applicationCategory: "MedicalApplication",
   operatingSystem: "All",
   offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
   about: { "@type": "MedicalCondition", name: "Obesity" },
-  publisher: { "@id": "https://womanrx.com/#organization", "@type": "MedicalOrganization", name: "WomanRx.com" },
+  publisher: { "@id": "https://womenrx.com/#organization", "@type": "MedicalOrganization", name: "WomanRx.com" },
   isAccessibleForFree: true,
 };
 
@@ -31,9 +31,9 @@ export default function Page() {
       <header className="mb-8">
         <Breadcrumbs
           items={[
-            { name: "Home", url: "https://womanrx.com/" },
-            { name: "Tools", url: "https://womanrx.com/tools/glp1-projection" },
-            { name: "GLP-1 Projection", url: "https://womanrx.com/tools/glp1-projection" },
+            { name: "Home", url: "https://womenrx.com/" },
+            { name: "Tools", url: "https://womenrx.com/tools/glp1-projection" },
+            { name: "GLP-1 Projection", url: "https://womenrx.com/tools/glp1-projection" },
           ]}
         />
         <h1 className="text-4xl font-semibold tracking-tight text-slate-900">

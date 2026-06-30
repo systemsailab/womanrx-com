@@ -19,7 +19,7 @@ export function Logo({ color = C.bone }: { color?: string }) {
         letterSpacing: "-0.012em",
       }}
     >
-      WomanRx.com
+      WomenRx
     </span>
   );
 }

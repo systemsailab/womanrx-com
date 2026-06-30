@@ -3,7 +3,7 @@
  * article title + topic + WomanRx.com byline. Cached by Vercel forever per
  * (topic, slug) combo.
  *
- * Usage: <meta property="og:image" content="https://womanrx.com/og?topic=X&slug=Y" />
+ * Usage: <meta property="og:image" content="https://womenrx.com/og?topic=X&slug=Y" />
  */
 import { ImageResponse } from "next/og";
 import { getArticle } from "@/lib/content";
@@ -87,7 +87,7 @@ export async function GET(req: Request) {
           }}
         >
           <div>{subtitle}</div>
-          <div>womanrx.com</div>
+          <div>womenrx.com</div>
         </div>
       </div>
     ),

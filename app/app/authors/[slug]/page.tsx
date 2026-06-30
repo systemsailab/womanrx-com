@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: a.name.includes("WomanRx") ? a.name : `${a.name} | WomanRx.com Medical Team`,
     description: a.bio.slice(0, 160),
-    alternates: { canonical: `https://womanrx.com/authors/${a.slug}` },
+    alternates: { canonical: `https://womenrx.com/authors/${a.slug}` },
   };
 }
 
@@ -28,10 +28,10 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
     name: a.name,
     honorificSuffix: a.honorificSuffix,
     jobTitle: a.jobTitle,
-    url: `https://womanrx.com/authors/${a.slug}`,
+    url: `https://womenrx.com/authors/${a.slug}`,
     image: a.imageUrl,
     medicalSpecialty: a.medicalSpecialty,
-    worksFor: { "@type": "MedicalOrganization", "@id": "https://womanrx.com/#organization", name: "WomanRx.com" },
+    worksFor: { "@type": "MedicalOrganization", "@id": "https://womenrx.com/#organization", name: "WomanRx.com" },
     alumniOf: a.alumniOf,
     hasCredential: (a.credentials || []).map((c) => ({
       "@type": "EducationalOccupationalCredential",

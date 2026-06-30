@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Compound Catalog",
   description:
     "Browse compounded peptides and GLP-1 therapy from a US-licensed pharmacy. Real pricing shown up front, provider reviewed, shipped discreetly.",
-  alternates: { canonical: "https://womanrx.com/shop" },
+  alternates: { canonical: "https://womenrx.com/shop" },
 };
 
 export default function ShopPage() {

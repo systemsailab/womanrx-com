@@ -22,7 +22,7 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: "CCBot", allow: "/" },
       { userAgent: "Bytespider", allow: "/" },
     ],
-    sitemap: "https://womanrx.com/sitemap.xml",
-    host: "https://womanrx.com",
+    sitemap: "https://womenrx.com/sitemap.xml",
+    host: "https://womenrx.com",
   };
 }

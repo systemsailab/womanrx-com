@@ -1,81 +1,88 @@
 /**
- * WomanRx.com — v5 Ecommerce design system.
+ * WomenRX.com — "Warm editorial-luxe" women's longevity brand system.
  *
- * Direction: this is a shop, not a magazine. The reference set is
- * Hims weight-loss, Ro weight-loss, TrimRx, Henry Meds, Eden — not Aesop.
+ * Direction: a home, not a pharmacy aisle. The reference set is editorial
+ * beauty and wellness luxury (a doctor you adore meets a fashion masthead),
+ * grafted onto a real clinical-trust spine. Covers GLP-1, peptides, HRT, and
+ * longevity for women across every season of life.
  *
- * Color: bright cream / pure white surfaces, ink text, single saturated
- * deep-teal accent for CTAs. Teal differentiates from Hims peach,
- * Ro lime, TrimRx navy-yellow.
+ * Color: warm bone surfaces, deep warm ink, a signature clay/rosewood brand
+ * voice, champagne gold for luxe accents, sage for the quiet health note.
  *
- * Type: sans-serif display (Inter Display 600/700) for headlines.
- * Fraunces becomes a small italic accent only, not load-bearing.
- * JetBrains Mono only for dose, price, SKU, cert IDs.
+ * Type: Fraunces (high-contrast editorial serif) is load-bearing for display.
+ * Hanken Grotesk carries body and UI. JetBrains Mono is reserved for dose,
+ * price, SKU, and cert IDs — a small note of clinical precision.
  *
- * Rules:
- *   - Real product photography on white. Catalog grids.
- *   - Sticky CTA always visible.
- *   - Per-product chips (Rx / FDA Approved / New / High dose).
- *   - "From $X/mo" pricing visible on every product card.
- *   - Anchor nav under hero (Compounds / How it works / Pricing / Safety).
+ * Motif: the arch — a doorway, a window, a sanctuary. The ownable shape.
  */
 
 export const C = {
-  // Foundation
-  paper: "#FDFAF2",         // warm white background (slightly off true white)
-  paper2: "#F5EFE0",        // alt section bg
-  paper3: "#EBE3D0",        // accent paper
-  white: "#FFFFFF",         // pure white for product card surfaces
+  // Foundation — warm bone, not stark white
+  paper: "#F7F0E5",         // warm bone background
+  paper2: "#EFE6D8",        // alt section bg
+  paper3: "#E7DBCB",        // accent paper
+  white: "#FFFFFF",         // crisp white for product card surfaces + photos
 
-  // Text
-  text: "#0E0E0C",          // warm carbon black
-  text2: "#3F3C36",
-  mute: "#6E6A60",
-  line: "rgba(14, 14, 12, 0.10)",
-  lineStrong: "rgba(14, 14, 12, 0.22)",
+  // Text — warm ink
+  text: "#2A2320",          // warm espresso-black
+  text2: "#5A4F46",
+  mute: "#8A7E70",
+  line: "rgba(42, 35, 32, 0.10)",
+  lineStrong: "rgba(42, 35, 32, 0.20)",
 
-  // Ink panels (dark hero / footer)
-  ink: "#0E0E0C",
-  ink2: "#161613",
-  ink3: "#1F1F1B",
-  inkLine: "rgba(244, 241, 236, 0.10)",
-  inkLineStrong: "rgba(244, 241, 236, 0.22)",
-  bone: "#FDFAF2",
-  bone2: "rgba(253, 250, 242, 0.72)",
-  bone3: "rgba(253, 250, 242, 0.50)",
-  bone4: "rgba(253, 250, 242, 0.32)",
+  // Ink panels (dark hero / footer) — deep warm espresso, never cold
+  ink: "#251E1A",
+  ink2: "#2E2620",
+  ink3: "#38302A",
+  inkLine: "rgba(247, 240, 229, 0.12)",
+  inkLineStrong: "rgba(247, 240, 229, 0.24)",
+  bone: "#F7F0E5",
+  bone2: "rgba(247, 240, 229, 0.74)",
+  bone3: "rgba(247, 240, 229, 0.52)",
+  bone4: "rgba(247, 240, 229, 0.34)",
 
-  // BRAND ACCENT — deep teal pharmaceutical
-  brand: "#0E4F4F",         // primary CTA + brand mark
-  brandDeep: "#063535",
-  brandLight: "#A8C9C9",
-  brandSoft: "rgba(14, 79, 79, 0.08)",
-  brandTint: "#E5EDED",
+  // BRAND ACCENT — clay / rosewood (the brand's voice)
+  brand: "#B0685A",         // primary CTA + brand mark
+  brandDeep: "#8A4A3D",
+  brandLight: "#E4B9AC",    // light clay for on-dark accents
+  brandSoft: "rgba(176, 104, 90, 0.09)",
+  brandTint: "#F0E2DA",     // clay tint surface
 
-  // Color-coded products (kept for visual differentiation in catalog)
-  forest: "#2D4A3A",
-  forestDeep: "#1E3429",
-  forestLight: "#B8D4C2",
-  terracotta: "#9B5240",
-  terracottaDeep: "#6F3A2C",
-  terracottaLight: "#E4C0B0",
+  // Signature accents — champagne gold + sage
+  gold: "#C2A268",
+  goldDeep: "#9A7E48",
+  goldTint: "#F1E6D0",
+  sage: "#7E8B73",
+  sageDeep: "#566049",
+  sageTint: "#E5EADD",
+  blush: "#EAD3C8",
+  clay: "#B0685A",
+  clayDeep: "#8A4A3D",
+
+  // Color-coded lanes (visual differentiation across treatment categories)
+  forest: "#5E6B50",        // sage family — peptides
+  forestDeep: "#434B39",
+  forestLight: "#C7D0BA",
+  terracotta: "#A85B4C",    // clay family — hormones
+  terracottaDeep: "#7E4034",
+  terracottaLight: "#E6C4B6",
 
   // Accent (used surgically on price strikethrough + brand mark)
-  accent: "#0E4F4F",       // now teal not oxblood
-  accentDeep: "#063535",
-  accentLight: "#A8C9C9",
+  accent: "#B0685A",
+  accentDeep: "#8A4A3D",
+  accentLight: "#E4B9AC",
 
   // Status
   danger: "#A8341E",
-  success: "#0F7B3D",
-  warn: "#D6A038",
-  yellow: "#F5C842",       // promo bar background
+  success: "#3F7A55",
+  warn: "#C99A3E",
+  yellow: "#D9B877",        // champagne — promo / stars
 } as const;
 
 export const FONT = {
-  display: '"Inter", "Söhne", system-ui, -apple-system, sans-serif',
-  serif: '"Fraunces", "Times New Roman", Georgia, serif',
-  sans: '"Inter", system-ui, -apple-system, sans-serif',
+  display: '"Fraunces", Georgia, "Times New Roman", serif',
+  serif: '"Fraunces", Georgia, serif',
+  sans: '"Hanken Grotesk", system-ui, -apple-system, sans-serif',
   mono: '"JetBrains Mono", "IBM Plex Mono", ui-monospace, "SF Mono", monospace',
 } as const;
 
@@ -88,26 +95,27 @@ export const RADIUS = {
   pill: "999px",
 } as const;
 
-/** Big sans-display (Inter 600/700) — primary headline type. */
+/** Editorial display serif — Fraunces, the load-bearing headline type. */
 export const display = (extra: React.CSSProperties = {}): React.CSSProperties => ({
   fontFamily: FONT.display,
-  fontWeight: 600,
-  letterSpacing: "-0.022em",
+  fontOpticalSizing: "auto",
+  fontWeight: 450,
+  letterSpacing: "-0.014em",
   ...extra,
 });
 
-/** Sans body — Inter regular/medium. */
+/** Sans body — Hanken Grotesk regular/medium. */
 export const sans = (extra: React.CSSProperties = {}): React.CSSProperties => ({
   fontFamily: FONT.sans,
-  letterSpacing: "-0.002em",
+  letterSpacing: "0",
   ...extra,
 });
 
-/** Italic serif accent — Fraunces, used sparingly on accent words only. */
+/** Italic serif accent — Fraunces, used on accent words and pull quotes. */
 export const serif = (extra: React.CSSProperties = {}): React.CSSProperties => ({
   fontFamily: FONT.serif,
   fontOpticalSizing: "auto",
-  letterSpacing: "-0.012em",
+  letterSpacing: "-0.01em",
   fontWeight: 400,
   fontStyle: "italic",
   ...extra,
@@ -121,12 +129,12 @@ export const mono = (extra: React.CSSProperties = {}): React.CSSProperties => ({
   ...extra,
 });
 
-/** Editorial uppercase label. Mono, tracked wide. */
+/** Editorial eyebrow label. Mono, tracked wide — a clinical-precision note. */
 export const label = (color: string = C.mute): React.CSSProperties => ({
   ...mono({
     fontSize: 10.5,
     fontWeight: 500,
-    letterSpacing: "0.18em",
+    letterSpacing: "0.2em",
     textTransform: "uppercase",
     color,
   }),
